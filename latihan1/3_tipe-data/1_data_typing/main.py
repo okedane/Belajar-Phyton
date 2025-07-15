@@ -58,5 +58,18 @@ print(x[-3]) # menampilkan 3 value dari terakhir
 #square[start:stop:step]
 print(x[0:7:1])
 
+print("======================")
+#tuple  seperti sama dengan list
+
+x = (1, "Dicoding", 1+3j)
+print(type(x))
+print(x[1])
+print(x[1:3])
+
+#set
+x = {1,2,7, 2, 3, 13, 3}
+
+
+
 
 
