@@ -66,10 +66,37 @@ print(type(x))
 print(x[1])
 print(x[1:3])
 
+print("======================")
 #set
-x = {1,2,7, 2, 3, 13, 3}
+x = {1,2,"dani", 2, "dani", 13, 3}
+print(type(x))
+print(x)
 
+set1 = {1,2,3,4,5}
+set2 = {4,5,6,7,8}
 
+union = set1.union(set2)
+print("Union : ", union)
+
+intersection = set1.intersection(set2)
+print("Interaction", intersection)
+
+print("======================")
+print("Dict")
+x = {'name': 'Perseus Evans', 'age':20, 'isMarried':False}
+print(type(x))
+#memanggil dict
+print("nama saya", x['name'])
+#Mengubah
+x['Job'] = "Web Developer"
+print(x)
+#Menghapus
+del x['isMarried']
+print(x)
+
+#memanggil dua value
+print(f"Nama : {x['name']}, Pekerjaan : {x['Job']}")
+print("Nama :", x['name'], "Pekerjaan : ", x['Job'])
 
 
 
